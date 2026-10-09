@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
             </div>
             
             <p className="text-slate-600 dark:text-slate-400 max-w-md leading-relaxed text-xs">
-              Final-year Computer Science student at Salim Habib University focusing on cloud infrastructure automation, CI/CD pipelines, containerization, and Kubernetes.
+              DevOps and Cloud Engineer focusing on cloud infrastructure automation, CI/CD pipelines, containerization, and Kubernetes.
             </p>
 
             <div className="flex items-center gap-2 text-slate-600 dark:text-slate-400 font-mono text-xs pt-1">

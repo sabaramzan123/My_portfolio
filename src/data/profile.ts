@@ -11,7 +11,7 @@ export const profileData = {
   resumeFilename: "Saba_Ramzan_Junior_DevOps_Engineer_Resume.pdf",
   
   heroDescription: 
-    "I'm a final-year Computer Science student focused on building automated deployment pipelines, managing cloud infrastructure with Terraform, and deploying containerized applications using Docker and Kubernetes.",
+    "I am a DevOps and Cloud Engineer focused on building automated deployment pipelines, managing cloud infrastructure with Terraform, and deploying containerized applications using Docker and Kubernetes.",
   
   heroSecondary: 
     "Turning infrastructure into code and deployments into repeatable workflows.",
@@ -20,7 +20,7 @@ export const profileData = {
     "Obtain a Junior DevOps Engineer, Cloud Engineer, or Associate Platform/Infrastructure Engineer position to contribute to engineering teams, strengthen practical skills, and manage resilient cloud infrastructure.",
 
   aboutParagraph: 
-    "I'm a final-year Computer Science student at Salim Habib University with a strong interest in DevOps and Cloud Engineering. I enjoy building practical projects that connect application development with infrastructure automation. Through my projects and remote internship, I have worked with AWS, Terraform, Docker, Kubernetes, GitHub Actions, and Jenkins. I am looking for an opportunity to contribute to an engineering team, strengthen my practical skills, and learn how reliable infrastructure is managed in real-world environments.",
+    "I am a DevOps and Cloud Engineer with a strong interest in infrastructure automation and cloud systems. I enjoy building practical projects that connect application development with reliable infrastructure workflows. Through hands-on projects and remote internship experience, I have worked with AWS, Terraform, Docker, Kubernetes, GitHub Actions, and Jenkins to establish robust, reproducible environments.",
 
   focusAreas: [
     {
@@ -51,7 +51,7 @@ export const profileData = {
   ],
 
   badges: [
-    { label: "Status", value: "Final-Year CS Student" },
+    { label: "Role", value: "DevOps & Cloud Engineer" },
     { label: "Experience", value: "1-Month Internship + Hands-on Projects" },
     { label: "Target Roles", value: "Junior DevOps / Cloud Engineer" },
     { label: "Availability", value: "Open to Full-Time & Internship Roles" }
