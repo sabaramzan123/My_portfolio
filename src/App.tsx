@@ -8,7 +8,6 @@ import { ProjectsSection } from './sections/ProjectsSection';
 import { ExperienceSection } from './sections/ExperienceSection';
 import { EducationSection } from './sections/EducationSection';
 import { CertificationsSection } from './sections/CertificationsSection';
-import { NotesSection } from './sections/NotesSection';
 import { ContactSection } from './sections/ContactSection';
 
 export function App() {
@@ -23,7 +22,7 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-cyan-500/20 selection:text-cyan-300">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col selection:bg-cyan-500/20 selection:text-cyan-600 dark:selection:text-cyan-300 transition-colors duration-200">
       {/* Sticky responsive Navbar */}
       <Navbar />
 
@@ -42,7 +41,6 @@ export function App() {
         <ExperienceSection />
         <EducationSection />
         <CertificationsSection />
-        <NotesSection />
         <ContactSection />
       </main>
 

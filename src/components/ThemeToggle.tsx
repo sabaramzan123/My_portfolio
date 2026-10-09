@@ -31,11 +31,11 @@ export const ThemeToggle: React.FC = () => {
     <button
       onClick={toggleTheme}
       type="button"
-      className="p-2 rounded-lg text-slate-400 hover:text-cyan-400 hover:bg-slate-800/60 dark:hover:bg-slate-800/80 transition-all border border-slate-700/50 hover:border-cyan-500/30 focus:outline-none focus:ring-2 focus:ring-cyan-500/40"
+      className="p-2 rounded-lg text-slate-600 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all border border-slate-300 dark:border-slate-700/50 hover:border-cyan-500/40 focus:outline-none focus:ring-2 focus:ring-cyan-500/40 cursor-pointer shadow-xs"
       aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
       title={isDark ? "Switch to light mode" : "Switch to dark mode"}
     >
-      {isDark ? <Sun className="w-4 h-4 text-amber-300" /> : <Moon className="w-4 h-4 text-cyan-600" />}
+      {isDark ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-cyan-600" />}
     </button>
   );
 };
